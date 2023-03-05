@@ -1,11 +1,14 @@
-pipeline {
-    agent any
+package okright;
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ourTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
 }
